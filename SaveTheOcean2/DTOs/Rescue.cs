@@ -61,6 +61,8 @@ namespace SaveTheOcean2.DTO
             Console.WriteLine("+---------------------------------------------------------------+");
         }
 
+
+
         public string Cura(int option)
         {
             int x;
