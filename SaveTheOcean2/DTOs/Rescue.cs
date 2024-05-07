@@ -38,9 +38,7 @@ namespace SaveTheOcean2.Models
             }
             
         }
-        /// <summary>
-        /// Mètode que escriu en pantalla la informació del rescat
-        /// </summary>
+
         public void GetRescat()
         {
             Console.WriteLine("+---------------------------------------------------------------+");
@@ -51,9 +49,7 @@ namespace SaveTheOcean2.Models
             Console.WriteLine($"|  {this.IdRescue} | {this.Date}\t| {this.Animal.SuperFamily} | {this.GA} | {this.Location}       |");
             Console.WriteLine("+---------------------------------------------------------------+");
         }
-        /// <summary>
-        /// Mètode que escriu en pantalla la fitxa de l'animal
-        /// </summary>
+
         public void GetFitxa()
         {
             Console.WriteLine("+---------------------------------------------------------------+");
@@ -64,11 +60,7 @@ namespace SaveTheOcean2.Models
             Console.WriteLine($"| {this.Animal.Name}  | {this.Animal.SuperFamily} | {this.Animal.Breed} | {this.Animal.Weight}      |");
             Console.WriteLine("+---------------------------------------------------------------+");
         }
-        /// <summary>
-        /// Mètode que retorna si el resultat de la cura ha estat positiu o no
-        /// </summary>
-        /// <param name="option">Parametre que marca si el tractament s'ha fet al lloc del rescat o al centre CRAM</param>
-        /// <returns>Retorna una string dient els resultats del tractament</returns>
+
         public string Cura(int option)
         {
             int x;
