@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SaveTheOcean2.Models
+namespace SaveTheOcean2.DTO
 {
     public class Rescue
     {

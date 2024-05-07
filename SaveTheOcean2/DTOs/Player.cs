@@ -1,7 +1,7 @@
 ﻿using System;
 
 
-namespace SaveTheOcean2.Models
+namespace SaveTheOcean2.DTO
 {
     public class Player
     {

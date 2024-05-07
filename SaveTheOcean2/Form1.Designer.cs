@@ -190,7 +190,7 @@
             DGRescue.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             DGRescue.Location = new Point(397, 452);
             DGRescue.Name = "DGRescue";
-            DGRescue.Size = new Size(542, 48);
+            DGRescue.Size = new Size(551, 50);
             DGRescue.TabIndex = 11;
             // 
             // BSearch

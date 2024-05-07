@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using SaveTheOcean2;
-using SaveTheOcean2.Models;
+using SaveTheOcean2.DTO;
 
 namespace SaveTheOcean2.Persistence.DAO
 {

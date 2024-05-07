@@ -1,6 +1,6 @@
 ﻿using AC4.Persistence.Mapping;
 using AC4.Persistence.Utils;
-using SaveTheOcean2.Models;
+using SaveTheOcean2.DTO;
 using SaveTheOcean2.Persistence.DAO;
 using System;
 using System.Collections.Generic;
@@ -47,6 +47,11 @@ namespace SaveTheOcean2
         }
 
         private void dataGridSelectAll_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void lblAllRescues_Click(object sender, EventArgs e)
         {
 
         }

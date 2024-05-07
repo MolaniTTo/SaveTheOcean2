@@ -1,4 +1,5 @@
-using SaveTheOcean2.Models;
+using SaveTheOcean2.DTO;
+
 using static System.Windows.Forms.Design.AxImporter;
 using System.Windows.Forms;
 using AC4.Persistence.Mapping;

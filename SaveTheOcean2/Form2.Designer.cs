@@ -62,6 +62,7 @@
             lblAllRescues.Size = new Size(111, 30);
             lblAllRescues.TabIndex = 1;
             lblAllRescues.Text = "RESCUES:";
+            lblAllRescues.Click += lblAllRescues_Click;
             // 
             // lblSelectById
             // 
